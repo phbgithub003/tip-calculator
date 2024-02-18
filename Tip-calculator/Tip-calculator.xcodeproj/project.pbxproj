@@ -21,6 +21,8 @@
 		EE4559172B808FF1007B8B57 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4559162B808FF1007B8B57 /* SplitInputView.swift */; };
 		EE45591A2B809FAF007B8B57 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4559192B809FAF007B8B57 /* ThemeFont.swift */; };
 		EE45591D2B820042007B8B57 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45591C2B820042007B8B57 /* LabelFactory.swift */; };
+		EE4559202B82137C007B8B57 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45591F2B82137C007B8B57 /* UIView+extension.swift */; };
+		EE4559222B821FCA007B8B57 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4559212B821FCA007B8B57 /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		EE4559162B808FF1007B8B57 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
 		EE4559192B809FAF007B8B57 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		EE45591C2B820042007B8B57 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		EE45591F2B82137C007B8B57 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		EE4559212B821FCA007B8B57 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		EE4558EC2B80843A007B8B57 /* Tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				EE45591E2B82135B007B8B57 /* extension */,
 				EE45591B2B81FFF9007B8B57 /* Custom */,
 				EE4559182B809F9A007B8B57 /* config */,
 				EE4559092B808D86007B8B57 /* Views */,
@@ -93,6 +98,7 @@
 				EE4559122B808FC7007B8B57 /* BillInputView.swift */,
 				EE4559142B808FDF007B8B57 /* TipInputView.swift */,
 				EE4559162B808FF1007B8B57 /* SplitInputView.swift */,
+				EE4559212B821FCA007B8B57 /* AmountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +117,14 @@
 				EE45591C2B820042007B8B57 /* LabelFactory.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		EE45591E2B82135B007B8B57 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE45591F2B82137C007B8B57 /* UIView+extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,7 @@
 			files = (
 				EE4558F22B80843A007B8B57 /* CalculatorVC.swift in Sources */,
 				EE45590D2B808DE1007B8B57 /* LogoView.swift in Sources */,
+				EE4559222B821FCA007B8B57 /* AmountView.swift in Sources */,
 				EE4559132B808FC7007B8B57 /* BillInputView.swift in Sources */,
 				EE45591D2B820042007B8B57 /* LabelFactory.swift in Sources */,
 				EE45591A2B809FAF007B8B57 /* ThemeFont.swift in Sources */,
@@ -201,6 +216,7 @@
 				EE4558F02B80843A007B8B57 /* SceneDelegate.swift in Sources */,
 				EE4559172B808FF1007B8B57 /* SplitInputView.swift in Sources */,
 				EE4559152B808FDF007B8B57 /* TipInputView.swift in Sources */,
+				EE4559202B82137C007B8B57 /* UIView+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
