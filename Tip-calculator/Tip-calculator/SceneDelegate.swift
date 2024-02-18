@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         // Create and set your app's initial view controller
-        let rootViewController = ViewController() // Replace with your initial view controller's class
+        let rootViewController = CalculatorVC() // Replace with your initial view controller's class
         window?.rootViewController = rootViewController
         
         // Make the window visible
